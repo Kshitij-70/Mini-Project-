@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background-color:rgb(233,255,255);
+font-family:"Poppins",sans-serif;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 50px;
+background-color:rgb(255,209,240);
+}
+
+.logo{
+font-size:22px;
+font-weight:700;
+}
+
+.nav-links{
+display:flex;
+gap:30px;
+}
+
+.nav-links li{
+list-style:none;
+}
+
+.nav-links a{
+text-decoration:none;
+color:black;
+font-weight:500;
+}
+
+/* CONTAINER */
+
+.container{
+max-width:900px;
+margin:40px auto;
+min-height:100vh;
+}
+
+h1,h2{
+margin:20px 0;
+}
+
+/* FORM */
+
+form{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+input,select{
+width:260px;
+padding:8px;
+font-size:16px;
+}
+
+.btn{
+width:140px;
+padding:10px;
+border-radius:20px;
+border:none;
+background-color:rgb(255,196,206);
+cursor:pointer;
+font-weight:500;
+}
+
+/* TABLE */
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-bottom:30px;
+}
+
+table,th,td{
+border:1px solid black;
+text-align:center;
+padding:10px;
+}
+
+/* LISTS */
+
+ul{
+margin-bottom:30px;
+}
+
+ul li{
+list-style:disc;
+margin-left:20px;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:15px;
+}
